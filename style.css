@@ -8,8 +8,9 @@ header{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 200vw;
     background-size: cover;
-    background-position-y: -20vw; 
+    background-position-y: -30vw; 
     text-align: center;
     justify-content: center;
     align-items: center;
