@@ -9,24 +9,25 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -450px;
-    height: 500px;
+    background-position-y: -20vw; 
     text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding-top: 100px;
-    
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 header h1{
     vertical-align: middle;
     padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
     font-size: 300%;
     border-radius: 25px;
-    margin-bottom: -10px;
+    margin-bottom: -11px;
     margin-top: -11px;
     margin-right: -15px;
 }
@@ -66,8 +67,8 @@ body{
 }
 #list{
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: auto;
+    padding-right: auto;
     font-size: 110%;
 }#list ul{
     display: inline-block;
@@ -79,19 +80,22 @@ body{
     padding: 20px;
     font-size: 110%;
     margin:0px; 
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: auto;
+    padding-right: auto;
 }
 #blue a{
     color: lightblue;
+}
+#blue a:hover{
+    color: white;
 }
 #price{
     width: 300px;
     background-color: white;
     text-align: center;
     padding: 30px; 
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: auto;
+    padding-right: auto;
     margin:0 auto;
     border-radius: 0px 0px 10px 10px;
     font-size: 120%;
@@ -102,3 +106,41 @@ body{
 #price p{
     margin-bottom: 0px;
 }
+@media screen and (max-width: 610px) {
+    header h1{
+        font-size: 200%;
+    }
+    #desc{
+        font-size: 110%;
+    }
+    #list{
+        font-size: 100%;
+    }
+    #blue{
+        font-size: 100%;
+    }#price{
+        font-size: 110%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+      header h1{
+          font-size: 150%;
+      }
+      #desc{
+          font-size: 80%;
+      }
+      #list{
+          font-size: 70%;
+      }
+      #blue{
+          font-size: 70%;
+      }#price{
+          font-size: 80%;
+      }
+    }
+    @media screen and (max-width: 360px) {
+         #price{
+             padding-left: 0px;
+             padding-right: 0px;
+         }
+      }
