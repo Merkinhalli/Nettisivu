@@ -23,8 +23,8 @@ header{
 header h1{
     vertical-align: middle;
     padding: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: auto;
+    padding-right: auto;
     font-size: 300%;
     border-radius: 25px;
     margin-bottom: -11px;
@@ -108,7 +108,7 @@ body{
 }
 @media screen and (max-width: 610px) {
     header h1{
-        font-size: 150%;
+        font-size: 170%;
     }
     #desc{
         font-size: 110%;
