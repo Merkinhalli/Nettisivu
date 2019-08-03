@@ -108,7 +108,7 @@ body{
 }
 @media screen and (max-width: 610px) {
     header h1{
-        font-size: 200%;
+        font-size: 150%;
     }
     #desc{
         font-size: 110%;
@@ -124,7 +124,7 @@ body{
   }
   @media screen and (max-width: 400px) {
       header h1{
-          font-size: 150%;
+          font-size: 100%;
       }
       #desc{
           font-size: 80%;
